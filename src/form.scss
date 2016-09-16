@@ -1,0 +1,85 @@
+/*
+* Naked CSS V0.1
+* Copyright 2016, Bruno Cavalcante
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+@import "variables";
+
+label {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 3px;
+}
+
+input[type=text], 
+input[type=email], 
+input[type=password], 
+input[type=date], 
+input[type=number], 
+input[type=tel] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=text], 
+input[type=email], 
+input[type=password], 
+input[type=date], 
+input[type=number], 
+input[type=tel], 
+select {
+  height: $input_height;
+  padding-left: 13px;
+  padding-right: 13px;
+  border: 1px solid #EEE;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: $input_height;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0;
+  background: white;
+
+  &:focus {
+    border-color: #AAA;
+    outline: none;
+  }
+}
+
+.form__row {
+  margin-bottom: 15px;
+}
+.form__column {
+  margin-bottom: 15px;
+}
+
+.form__actions {
+  margin-top: 20px;
+}
+
+input[readonly], select[readonly] {
+  background: whitesmoke;
+  color: #666;
+
+  &:focus {
+    border-color: #EEE;
+  }
+}
+
+@media (min-width: $screen_large) {
+  .form__column {
+    margin-bottom: 0;
+  }
+
+  .form__column--rightpad {
+    padding-right: 10px;
+  }
+  .form__column--leftpad {
+    padding-left: 10px;
+  }
+}
