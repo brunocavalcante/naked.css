@@ -1,0 +1,40 @@
+@import "variables";
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Clearfix */
+.container:before,
+.container:after {
+    content: " ";
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.container {
+    *zoom: 1;
+}
+
+@media (min-width: $screen_tablet) {
+}
+
+@media (min-width: $screen_large) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: $screen_larger) {
+  .container {
+    width: 1170px;
+  }
+}
