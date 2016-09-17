@@ -16,7 +16,6 @@
 }
 .btn:hover {
   background: #000;
-  text-decoration: none;
 }
 
 .btn--block {
@@ -49,15 +48,5 @@
 
   &:hover{
     background: darken($color_error, 10%);
-  }
-}
-
-.btn--discrete {
-  background: transparent;
-  border: 1px solid #DDD;
-  color: #666;
-
-  &:hover {
-    background: #EEE;
   }
 }

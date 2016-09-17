@@ -1,15 +1,16 @@
-#  Naked CSS
-The simplest set of CSS classes to get you started on a responsive project.
+#  naked.css
+The simplest set of CSS classes to get your awesome lightweight css project on the way.
 
 ## Installation
-Just download dist/naked.min.css and happy coding!
+Just download dist/naked.min.css and set it up on your project.
 
 ## What you get
-- Normalize (Reset) 
+- Normalize (reset) 
 - Super simple 12-column responsive grid
 - Basic form styling
+- Basic buttons styling
 
-All that for just **4kb (minified)** and less than **2kb (gzipped)**. The rest is up to you. If that's how you like your css to be, then **Naked CSS** was built for you.
+"All that" for just **4kb (minified)** and less than **2kb (gzipped)**. The rest is up to you. If that's how you like your css to be built upon, then **naked.css** was built for you.
 
 ## Browser Support
 - Chrome, Firefox, Safari and Opera, Edge – latest
