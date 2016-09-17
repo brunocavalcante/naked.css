@@ -2,7 +2,7 @@
 
 .btn {
   padding: 12px 18px 12px;
-  background: #444;
+  background: #333;
   border: 0;
   text-transform: uppercase;
   color: white;
@@ -36,11 +36,11 @@
 }
 
 .btn--success {
-  background: $color_primary;
+  background: $color_success;
   color: white;
 }
 .btn.btn--success:hover {
-  background: darken($color_primary, 10%);
+  background: darken($color_success, 10%);
 }
 
 .btn--danger {
