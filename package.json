@@ -1,6 +1,6 @@
 {
   "name": "naked-css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bare naked CSS framework",
   "repository": {
     "type": "git",
@@ -16,6 +16,10 @@
   "author": "Bruno Cavalcante",
   "license": "MIT",
   "devDependencies": {
-    "gulp-sass": "^2.3.2"
+    "gulp": "^3.9.1", 
+    "gulp-sass": "^2.3.2", 
+    "gulp-concat": "^2.6.0", 
+    "merge-stream": "^1.0.0", 
+    "gulp-cssmin": "^0.1.7" 
   }
 }

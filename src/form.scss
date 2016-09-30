@@ -12,7 +12,7 @@ label {
   font-size: 12px;
   text-transform: uppercase;
   color: #666;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 input[type=text], 
@@ -52,13 +52,13 @@ select {
 }
 
 .form__row {
-  margin-bottom: 15px;
+  margin-bottom: $gutter_small;
 }
 .form__column {
-  margin-bottom: 15px;
+  margin-bottom: $gutter_small;
 }
 .form__actions {
-  margin-top: 20px;
+  margin-top: $gutter_medium;
 }
 
 input[readonly], select[readonly] {
