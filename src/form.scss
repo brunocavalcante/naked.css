@@ -1,5 +1,5 @@
 /*
-* Naked CSS V0.1
+* Naked CSS V0.1.1
 * Copyright 2016, Bruno Cavalcante
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
@@ -32,7 +32,8 @@ input[type=password],
 input[type=date], 
 input[type=number], 
 input[type=tel], 
-select {
+select, 
+textarea {
   height: $input_height;
   padding-left: 13px;
   padding-right: 13px;
@@ -49,6 +50,13 @@ select {
     border-color: #AAA;
     outline: none;
   }
+}
+
+textarea {
+  height: auto;
+  line-height: 1.6;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .form__row {
