@@ -8,22 +8,13 @@
 @import "variables";
 
 @media (min-width: $screen_large) {
-  .grid:before,
-  .grid:after {
-    content: " ";
-    display: table;
-  }
-  .grid:after {
-    clear: both;
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .grid__column {
-    float: left;
     box-sizing: border-box;
-
-    &.grid__column--right {
-      float: right;
-    }
   }
   .grid__column--leftpad {
     padding-left: $gutter_medium;
@@ -64,5 +55,8 @@
   }
   .grid__column--11 {
     width: 91.66%;
+  }
+  .grid__column--12 {
+    width: 100%;
   }
 }
